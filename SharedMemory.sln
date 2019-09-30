@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SharedMemory", "SharedMemory\SharedMemory.csproj", "{49EEAE24-99C6-48F9-8784-4C9196BD1958}"
 EndProject
@@ -14,6 +14,12 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerTest", "Examples\ServerTest\ServerTest.csproj", "{6FC3F56C-B2DD-4E81-8425-CCAF2A6FF343}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SingleProcess", "Examples\SingleProcess\SingleProcess.csproj", "{58858E6C-4455-443F-A288-2B4BDCEDFB10}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMemoryServer", "SharedMemoryServer\SharedMemoryServer.csproj", "{0DE1546F-87BC-4465-8532-462C98192877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedMemoryClient", "SharedMemoryClient\SharedMemoryClient.csproj", "{CD15ED17-0F1C-4D29-B767-1306104E4939}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShareMemoryWrapper", "ShareMemoryWrapper\ShareMemoryWrapper.csproj", "{D8FC4A01-E54C-4231-A39B-53EDF7B092C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +47,18 @@ Global
 		{58858E6C-4455-443F-A288-2B4BDCEDFB10}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{58858E6C-4455-443F-A288-2B4BDCEDFB10}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{58858E6C-4455-443F-A288-2B4BDCEDFB10}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DE1546F-87BC-4465-8532-462C98192877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DE1546F-87BC-4465-8532-462C98192877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DE1546F-87BC-4465-8532-462C98192877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DE1546F-87BC-4465-8532-462C98192877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD15ED17-0F1C-4D29-B767-1306104E4939}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD15ED17-0F1C-4D29-B767-1306104E4939}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD15ED17-0F1C-4D29-B767-1306104E4939}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD15ED17-0F1C-4D29-B767-1306104E4939}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8FC4A01-E54C-4231-A39B-53EDF7B092C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8FC4A01-E54C-4231-A39B-53EDF7B092C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8FC4A01-E54C-4231-A39B-53EDF7B092C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8FC4A01-E54C-4231-A39B-53EDF7B092C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
